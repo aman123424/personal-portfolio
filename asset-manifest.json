@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.3a426769.css",
+    "main.js": "/personal-portfolio/static/js/main.8ddaed85.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/profilePic.jpeg": "/personal-portfolio/static/media/profilePic.187d6bd4dd26430c8c3a.jpeg",
+    "static/media/frontendTeam.jpeg": "/personal-portfolio/static/media/frontendTeam.1ced9bc3776bfd2f0c12.jpeg",
+    "static/media/withPoster.jpeg": "/personal-portfolio/static/media/withPoster.87acad8b5b6540b56811.jpeg",
+    "static/media/working.jpeg": "/personal-portfolio/static/media/working.ab2edc541f088b5c5a9a.jpeg",
+    "static/media/pitch.jpeg": "/personal-portfolio/static/media/pitch.2eef69db3b360bc81103.jpeg",
+    "static/media/fullTeam.jpeg": "/personal-portfolio/static/media/fullTeam.21319e7b034ba0d73d58.jpeg",
+    "static/media/appLogo.jpeg": "/personal-portfolio/static/media/appLogo.a9b7665f4fa82c8eff35.jpeg",
+    "static/media/React_logo.svg": "/personal-portfolio/static/media/React_logo.f6b53ba80ed68f166765fbfc373e3541.svg",
+    "static/media/cpp_logo.svg": "/personal-portfolio/static/media/cpp_logo.bdc9b59822129ed4c24203e564fad477.svg",
+    "static/media/ts_logo.svg": "/personal-portfolio/static/media/ts_logo.2e4a0127b4ee5034b86a2af043707075.svg",
+    "static/media/github_logo.svg": "/personal-portfolio/static/media/github_logo.202eab2591d4ce1d7433b7b9266df433.svg",
+    "static/media/css_logo.svg": "/personal-portfolio/static/media/css_logo.f3dc46da661cda3de88be2681b7f0b6d.svg",
+    "static/media/js_logo.svg": "/personal-portfolio/static/media/js_logo.dd69dd0479bc7dc792bec3247d42f2ef.svg",
+    "static/media/flutter_logo.svg": "/personal-portfolio/static/media/flutter_logo.655685f5331e9be6bcb60f8f03e37665.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/html_logo.svg": "/personal-portfolio/static/media/html_logo.42352542e844a70fa10d02e19ce53738.svg",
+    "main.3a426769.css.map": "/personal-portfolio/static/css/main.3a426769.css.map",
+    "main.8ddaed85.js.map": "/personal-portfolio/static/js/main.8ddaed85.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a426769.css",
+    "static/js/main.8ddaed85.js"
+  ]
+}
