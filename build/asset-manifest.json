@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a426769.css",
+    "main.js": "/static/js/main.da23aa99.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/profilePic.jpeg": "/static/media/profilePic.187d6bd4dd26430c8c3a.jpeg",
+    "static/media/frontendTeam.jpeg": "/static/media/frontendTeam.1ced9bc3776bfd2f0c12.jpeg",
+    "static/media/withPoster.jpeg": "/static/media/withPoster.87acad8b5b6540b56811.jpeg",
+    "static/media/working.jpeg": "/static/media/working.ab2edc541f088b5c5a9a.jpeg",
+    "static/media/pitch.jpeg": "/static/media/pitch.2eef69db3b360bc81103.jpeg",
+    "static/media/fullTeam.jpeg": "/static/media/fullTeam.21319e7b034ba0d73d58.jpeg",
+    "static/media/appLogo.jpeg": "/static/media/appLogo.a9b7665f4fa82c8eff35.jpeg",
+    "static/media/React_logo.svg": "/static/media/React_logo.f6b53ba80ed68f166765fbfc373e3541.svg",
+    "static/media/cpp_logo.svg": "/static/media/cpp_logo.bdc9b59822129ed4c24203e564fad477.svg",
+    "static/media/ts_logo.svg": "/static/media/ts_logo.2e4a0127b4ee5034b86a2af043707075.svg",
+    "static/media/github_logo.svg": "/static/media/github_logo.202eab2591d4ce1d7433b7b9266df433.svg",
+    "static/media/css_logo.svg": "/static/media/css_logo.f3dc46da661cda3de88be2681b7f0b6d.svg",
+    "static/media/js_logo.svg": "/static/media/js_logo.dd69dd0479bc7dc792bec3247d42f2ef.svg",
+    "static/media/flutter_logo.svg": "/static/media/flutter_logo.655685f5331e9be6bcb60f8f03e37665.svg",
+    "index.html": "/index.html",
+    "static/media/html_logo.svg": "/static/media/html_logo.42352542e844a70fa10d02e19ce53738.svg",
+    "main.3a426769.css.map": "/static/css/main.3a426769.css.map",
+    "main.da23aa99.js.map": "/static/js/main.da23aa99.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a426769.css",
+    "static/js/main.da23aa99.js"
+  ]
+}
