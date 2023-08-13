@@ -1,0 +1,32 @@
+@import '../../../../styles/colors.scss';
+
+.education-element{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    border-bottom: 1px solid $white;
+    // padding: 30px 0px;
+    height: 28%;
+
+    .duration{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .institute{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .description{
+        width: 50%;
+        text-align: start;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/colors.scss';
+
+.projects-container{
+    width: 90%;
+    height: calc(100vh - 90px);
+
+    .projects-carousel{
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+
+        .item-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

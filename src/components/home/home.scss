@@ -1,0 +1,130 @@
+@import '../../styles/colors.scss';
+
+.home-container{
+    width: 90%;
+    height: calc(100vh - 90px);
+    display: flex;
+
+    .icons-container{
+        width: 50%;
+        height: calc(100vh - 90px);
+        display: flex;
+        flex-wrap: wrap;
+
+        .icon{
+            height: 100px;
+            width: 100px;
+            
+
+            &.Flutter{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 30%;
+                left: 20%;
+            }
+
+            &.React{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+            }
+
+            &.JavaScript{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+
+            &.TypeScript{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+            &.CSS{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+            &.HTML{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+            &.CPP{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+            &.Github{
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+            }
+        }
+    }
+
+    .intro-container{
+        position: relative;
+        top: 20%;
+        padding: 20px;
+        width: 50%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .hello{
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .name{
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            font-size: 56px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: $lineColors;
+        }
+
+        .short-intro{
+            margin-top: 10px;
+            text-align: start;
+            color: $lightYellow;
+            letter-spacing: 1px;
+        }
+
+        .brief-intro{
+            display: flex;
+            text-align: start;
+            font-weight: 500;
+            font-size: 24px;
+            letter-spacing: 0px;
+            margin-top: 30px;
+        }
+    }
+
+    .bgImg-container{
+        position: absolute;
+        opacity: 0.3;
+        top: -40px;
+        left: -40px;
+        rotate: 165deg;
+    }
+}

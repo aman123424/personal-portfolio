@@ -1,0 +1,85 @@
+@import '../../styles/colors.scss';
+
+.card-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .card{
+        width: 80%;
+        height: fit-content;
+    
+        background-color: $cardBg;
+        box-shadow: 10px 10px $lineColors;
+    
+        .designation{
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .organization{
+                color: $lineColors;
+                font-weight: bold;
+                font-size: 36px;
+                letter-spacing: 1px;
+                margin: 15px 0px;
+            }
+        
+            .position{
+                color: $white;
+                font-weight: 400;
+                font-size: 18px;
+                padding: 10px 10px;
+            }
+        }
+    
+        .img-text-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+    
+            .img-container{
+                width: 30%;
+                // height: 50%;
+                aspect-ratio: 1/1;
+
+                .image{
+                    width: 100%;
+                    aspect-ratio: 1/1;
+                    object-fit: contain;
+                }
+            }
+    
+            .description{
+                width: 50%;
+                padding: 0px 20px;
+                color: $white;
+                text-align: start;
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                white-space:normal;
+            }
+        }
+    
+        .show-more{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+    
+    // .full-screen-img{
+    //     position: absolute;
+    //     top: 0;
+    //     width: 100vw;
+    //     aspect-ratio: 1/1;
+    //     z-index: 5;
+    //     background-color: grey;
+    // }
+}

@@ -1,0 +1,25 @@
+@import '../../../styles/colors.scss';
+
+.right-decoration-container{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .right-line-element{
+        height: 50vh;
+        width: 1.5px;
+        background-color: $lineColors;
+        border: 1px $lineColors solid;
+    }
+
+    .right-circle-element{
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        background-color: $lineColors;
+    }
+}

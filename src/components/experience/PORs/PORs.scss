@@ -1,0 +1,9 @@
+@import '../../../styles/colors.scss';
+
+.por-container{
+    width: 90%;
+
+    .por-element-container{
+        height: calc(100vh - 180px);
+    }
+}

@@ -1,0 +1,36 @@
+@import '../../styles/colors.scss';
+
+.skill-box{
+    background-color: $backgroundColor;
+    height: 100%;
+    width: 100%;
+    border: 1px solid $contactUsImgBg;
+    border-radius: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+    .skill-logo{
+        height: 60%;
+        object-fit: cover;
+    }
+
+    .skill-title{
+        display: none;
+    }
+
+    &:hover{
+        background-color: $lightBackgroundColor;
+
+        .skill-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../../styles/colors.scss';
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    &.active{
+        background-color: #000000b3;
+    }
+
+    .navbar-element{
+        padding: 30px 25px 20px 25px;
+        cursor: pointer;
+
+        &.active{
+            border-bottom: 2px solid $lineColors;
+            color: $lineColors;
+        }
+    }
+
+    .resume{
+        text-decoration: none;
+        margin: 30px 25px 20px 25px;
+    }
+}

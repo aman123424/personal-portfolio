@@ -1,0 +1,87 @@
+@import './../../../styles/colors.scss';
+
+.social-media-icons{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+
+    .icon-container{
+        // width: 105px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $circleColor;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        padding: 6px 9px 6px 9px;
+        margin: 4px 0px;
+        cursor: pointer;
+        width: fit-content;
+        text-decoration: none;
+
+        .icons{
+            color: $black;
+            display: flex;
+            align-items: center;
+            height: 18px;
+            width: 18px;
+            border: 1.5px $black solid;
+            border-radius: 100%;
+            padding: 4px;
+        }
+    
+        .icon-name{
+            display: none;
+        }
+
+        &:hover{
+
+            .icons{
+                animation: iconRotation 2s;
+                margin-left: 6px;
+            }
+
+            .icon-name{
+                color: white;
+                display: block;
+                // animation: iconNameAnimation 3s;
+            }
+
+            &.linkedin{
+                background-color: #0077B5;
+            }
+
+            &.github{
+                background-color: #67B1DE;
+            }
+
+            &.instagram{
+                background-image: linear-gradient(to right, #515BD4, #8134AF, #DD2A7B);
+            }
+        }
+    }
+}
+
+@keyframes iconRotation { 
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+// @keyframes iconNameAnimation{
+//     0% {
+//         width: 0;
+//     }
+
+//     50% {
+//         width: 50px;
+//     }
+
+//     100% {
+//         width: fit-content;
+//     }
+// }

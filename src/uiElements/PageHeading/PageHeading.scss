@@ -1,0 +1,12 @@
+@import '../../styles/colors.scss';
+
+.page-heading{
+    color: $circleColor;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 30px 10px 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    letter-spacing: 1px;
+}

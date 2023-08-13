@@ -1,0 +1,17 @@
+@import './styles/colors.scss';
+
+.App {
+  text-align: center;
+  background-color: $backgroundColor;
+  overflow: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  .component-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

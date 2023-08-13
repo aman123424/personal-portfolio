@@ -1,0 +1,9 @@
+@import '../../../styles/colors.scss';
+
+.education-container{
+    width: 90%;
+
+    .education-element-container{
+        height: calc(100vh - 180px);
+    }
+}

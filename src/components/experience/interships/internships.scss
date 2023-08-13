@@ -1,0 +1,14 @@
+@import '../../../styles/colors.scss';
+
+.internsips-container{
+    width: 90%;
+    height: calc(100vh - 90px);
+
+    .intern-cards-container{
+        width: 100%;
+        height: calc(100% - 90px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

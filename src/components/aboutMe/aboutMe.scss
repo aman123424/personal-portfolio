@@ -1,0 +1,53 @@
+@import '../../styles/colors.scss';
+
+.about-me-container{
+    width: 90%;
+    height: calc(100vh - 90px);
+
+    .img-text-container{
+        display: flex;
+        width: 100%;
+        height: calc(100vh - 180px);
+
+        .text-and-button-container{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .text{
+                text-align: start;
+                color: $white;
+                letter-spacing: 1px;
+            }
+
+            .education-button{
+                margin-top: 40px;
+            }
+        }
+
+        .img-circle-container{
+            width: 50%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            .img-container{
+                height: 70%;
+                aspect-ratio: 1/1 ;
+                border-radius: 100%;
+                background-color: grey;
+                box-shadow: 3px 15px 10px $lineColors;
+                overflow: hidden;
+
+                .img{
+                    width: 140%;
+                    height: 140%;
+                    border-radius: 100%;
+                    object-fit: cover;
+                    margin: -50px;
+                }
+            }
+        }
+    }
+}
