@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.3a426769.css",
-    "main.js": "/personal-portfolio/static/js/main.8ddaed85.js",
+    "main.css": "/personal-portfolio/static/css/main.dbc00f63.css",
+    "main.js": "/personal-portfolio/static/js/main.1a4e8431.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/profilePic.jpeg": "/personal-portfolio/static/media/profilePic.187d6bd4dd26430c8c3a.jpeg",
     "static/media/frontendTeam.jpeg": "/personal-portfolio/static/media/frontendTeam.1ced9bc3776bfd2f0c12.jpeg",
@@ -19,12 +19,12 @@
     "static/media/flutter_logo.svg": "/personal-portfolio/static/media/flutter_logo.655685f5331e9be6bcb60f8f03e37665.svg",
     "index.html": "/personal-portfolio/index.html",
     "static/media/html_logo.svg": "/personal-portfolio/static/media/html_logo.42352542e844a70fa10d02e19ce53738.svg",
-    "main.3a426769.css.map": "/personal-portfolio/static/css/main.3a426769.css.map",
-    "main.8ddaed85.js.map": "/personal-portfolio/static/js/main.8ddaed85.js.map",
+    "main.dbc00f63.css.map": "/personal-portfolio/static/css/main.dbc00f63.css.map",
+    "main.1a4e8431.js.map": "/personal-portfolio/static/js/main.1a4e8431.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a426769.css",
-    "static/js/main.8ddaed85.js"
+    "static/css/main.dbc00f63.css",
+    "static/js/main.1a4e8431.js"
   ]
 }
