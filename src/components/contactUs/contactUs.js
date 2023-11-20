@@ -5,14 +5,9 @@ import Button from "../../uiElements/Button/Button";
 import axios from "axios";
 
 function ContactUs() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [msg, setMsg] = useState("");
-
   const [formData, setFormData] = useState({});
 
   const handleInputChange = (event) => {
-    console.log("Name: ", event.target.value)
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
@@ -20,6 +15,14 @@ function ContactUs() {
 
   const scriptUrl =
     "https://script.google.com/macros/library/d/1f2YHtjMBCY2YcA0wnPX6ByP-LYSCbo6UiuTN2MbWZUk5N_gAJ1lc6vXB/1";
+
+  const submitForm = () => {
+    if (formData.name && formData.email && formData.message) {
+      window.open(
+        "mailto:amankulwal27@gmail.com"
+      );
+    }
+  };
 
   return (
     <div className="contactUs-container" id="contact">
@@ -31,13 +34,7 @@ function ContactUs() {
         </div>
       </div>
 
-      <form
-        // onSubmit={()=>appendSpreadsheet(formData)}
-        method="post"
-        name="google-sheet"
-        ref={formRef}
-        className="form-container"
-      >
+      <div ref={formRef} className="form-container">
         <div className="questions">
           <div className="input-title name">Name</div>
           <input
@@ -67,10 +64,10 @@ function ContactUs() {
           />
         </div>
 
-        <button type="submit" className="send-btn">
-          <Button text={"Send Message"} />
-        </button>
-      </form>
+        <div type="submit" className="send-btn">
+          <Button text={"Send Message"} onClick={submitForm} />
+        </div>
+      </div>
     </div>
   );
 }
